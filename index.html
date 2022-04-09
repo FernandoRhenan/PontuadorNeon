@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="style.css" rel="stylesheet"/>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Birthstone&family=Righteous&family=Teko&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Righteous&family=Teko&display=swap" rel="stylesheet">
+
+    <title>Contador de pontos</title>
+</head>
+
+<body>
+
+
+<div><header id="header">Contador de pontos</header></div>
+
+    <div id="container" class="containerAll">
+
+        <input id="inpJogador" class="inpJogadorAll" type="text" value="" placeholder="Insira seu nome">
+
+        <input  id="tela" class="telaAll Tred" type="number" value="0" disabled>
+
+        <div class="seqButtonAll">
+            <button id="buttonAdd" class="modButton red">+1</button>
+            <button id="buttonAdd3" class="modButton red">+3</button>
+            <button id="buttonSub3" class="modButton red">-3</button>
+            <button id="buttonSub" class="modButton red">-1</button>
+        </div>
+ 
+    </div>
+
+
+    <div id="container2" class="containerAll">
+        <input id="inpJogador2" class="inpJogadorAll" type="text" placeholder="Insira seu nome" />
+
+        <input  id="tela2" class="telaAll Tblue" type="number" value= "0" disabled>
+
+        <div class="seqButtonAll">
+            <button id="SbuttonAdd" class="modButton blue">+1</button>
+            <button id="SbuttonAdd3" class="modButton blue">+3</button>
+            <button id="SbuttonSub3" class="modButton blue">-3</button>
+            <button id="SbuttonSub" class="modButton blue">-1</button>
+        </div>
+
+    </div>  
+
+
+    <div id="container3" class="containerAll">
+        <input id="inpJogador3" class="inpJogadorAll" type="text" placeholder="Insira seu nome" />
+
+        <input  id="tela3" class="telaAll Tgreen" type="number" value="0" disabled>
+
+        <div class="seqButtonAll">
+            <button id="TbuttonAdd" class="modButton green">+1</button>
+            <button id="TbuttonAdd3" class="modButton green">+3</button>
+            <button id="TbuttonSub3" class="modButton green">-3</button>
+            <button id="TbuttonSub" class="modButton green">-1</button>
+        </div>
+
+    </div>
+
+    
+    <div id="container4" class="containerAll">
+        <input id="inpJogador4" class="inpJogadorAll" type="text" placeholder="Insira seu nome" />
+
+        <input  id="tela4" class="telaAll Tyellow" type="number" value="0" disabled>
+
+        <div class="seqButtonAll">
+            <button id="QbuttonAdd" class="modButton yellow">+1</button>
+            <button id="QbuttonAdd3" class="modButton yellow">+3</button>
+            <button id="QbuttonSub3" class="modButton yellow">-3</button>
+            <button id="QbuttonSub" class="modButton yellow">-1</button>
+        </div>
+
+    </div>
+
+
+    <div><button id="reset">Fim de rodada</button></div>
+
+    <div id="lista">
+      <ul id="ul">
+          
+      </ul>
+    </div>
+
+    
+    
+
+    <script src="script.js"></script>
+</body>
+
+</html>
